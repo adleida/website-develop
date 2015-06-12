@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> 专业广告搜索，实时竞价，程序化购买 - Adleida 中国 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <!-- Loading Bootstrap -->
+    <link href="/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="/css/vendor/flat-ui.min.css" rel="stylesheet">
+    <!-- loop loop -->
+    <link rel="stylesheet" href="/css/loop.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <style type="text/css">		
+    .banner { position: relative; overflow: auto;}
+        .banner li { list-style: none; }
+            .banner ul li { float: left; }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="/js/vendor/html5shiv.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-lg navbar-embossed" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-8">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <a class="navbar-brand" href="#">Adleida</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-collapse-8">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Messages<span class="navbar-unread">1</span></a></li>
+          <li class="active"><a href="#">About Us</a></li>
+          <li><a href="#">Clients</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MonsterCritic <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <form class="navbar-form navbar-right" role="form">
+              <div class="form-group">
+                <input type="text" placeholder="Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" placeholder="Password" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-success">Sign in</button>
+              <button type="submit" class="btn btn-danger">Register</button>
+            </form>
+          </li>
+          <li><a href="#"><span class="visible-sm visible-xs">Settings<span class="fui-gear"></span></span><span class="visible-md visible-lg"><span class="fui-gear"></span></span></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="banner">
+      <ul>
+        <li style="background-image: url('/images/shop.jpg');">
+          <br /> <br /> <br /> <br />
+          <h1>广告交易所 程序化购买 构筑新世代交易规则</h2>
+          <p> 全面拥抱广告程序化购买大时代，提供全方位的程序化广告投放以及效果分析服务。</p>
+        </li>
+        <li style="background-image: url('/images/subway.jpg');">
+          <br /> <br /> <br /> <br />
+          <h1>可视化展示大数据分析结果</h1>
+          <p> 专业后端服务 </p>
+        </li>
+        <li style="background-image: url('/images/sunset.jpg');">
+          <br /> <br /> <br /> <br />
+          <h1>未来的广告行业不一样！</h1>
+          <p> Adleida 提供专业竞价服务 </p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/vendor/flat-ui.min.js"></script>
+    <!-- loop js -->
+    <script src="/js/vendor/unslider.min.js"></script>
+
+    <script src="/js/application.js"></script>
+    <script>		
+        $('.banner').unslider({
+            arrows: true,
+            fluid: true,
+            dots: true
+        });
+    </script>
+  </body>
+</html>

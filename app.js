@@ -1,9 +1,23 @@
 var express = require('express');
 var app = express();
-var routes = require('./routes/index');
 
-app.set('view engine', 'jade');
+// app.set('view engine', 'jade');
 app.use(express.static('public'));
+app.set('views', __dirname + '/templates');
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'ejs');
+
+
+/* get method here */
+app.get('/test', function (req, res) {
+    // var id = req.query.id
+    res.render('test.html');
+});
+
+app.get('/', function (req, res) {
+    // var id = req.query.id
+    res.render('index.html');
+});
 
 
 /* server entry here */
