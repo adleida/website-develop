@@ -1,21 +1,9 @@
 var express = require('express');
 var app = express();
-
+var routes = require('./routes/index');
 
 app.set('view engine', 'jade');
 app.use(express.static('public'));
-
-
-/* get method here */
-app.get('/', function (req, res) {
-    var id = req.query.id
-    console.log(id);
-    res.render('index', 
-        { 
-            title: '花猫菜单', 
-            url: 'http://192.168.1.232:3000/images/represent'+id+'.png'
-        });
-});
 
 
 /* server entry here */
