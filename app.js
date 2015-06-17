@@ -15,10 +15,16 @@ app.get('/test', function (req, res) {
 });
 
 app.get('/', function (req, res) {
-    // var id = req.query.id
     res.render('index.html');
 });
 
+app.get('/about', function (req, res) {
+    res.render('about.html');
+});
+
+app.get('/contact', function (req, res) {
+    res.render('contact.html');
+});
 
 /* server entry here */
 var server = app.listen(3000, function () {
@@ -28,3 +34,5 @@ var server = app.listen(3000, function () {
     console.log('Example app listening at http://%s:%s', host, port);
 
 });
+
+module.exports = app;

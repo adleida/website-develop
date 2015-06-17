@@ -1,0 +1,7 @@
+/* css decorate page on index.html */
+.highlight-info { 
+    background: url(../images/banner.jpg) center fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 6em 0;
+}

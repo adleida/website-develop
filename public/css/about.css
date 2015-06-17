@@ -1,0 +1,40 @@
+/* css decorate page on about.html */
+#about-header{
+    background: url(../images/people.jpg);
+    min-height: 500px;
+}
+
+.introduce{
+    border: solid 1px #bebebe;
+    background: #ffffff;
+}
+    .introduce img{
+        width: 280px;
+        height: 250px;
+        margin-left: -15px;
+    }
+
+/* css decorate element which must wrap img */
+.zoom{
+    display:block;
+    position:relative;
+    overflow:hidden;
+    background:#fff url(../images/loader.gif) no-repeat center;
+    border:none;
+    padding:0px
+}
+    .zoom img{
+        display:block;
+    }
+
+.zoomOverlay{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    display:none;
+    /* background-image:url(../images/zoom.png); */
+    background-repeat:no-repeat;
+    background-position:center;
+}

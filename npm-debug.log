@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'owner',
+1 verbose cli   'ls',
+1 verbose cli   'website-devlop' ]
+2 info using npm@1.4.28
+3 info using node@v0.13.0-pre
+4 verbose request where is /website-devlop
+5 verbose request registry https://registry.npmjs.org/
+6 verbose request id 510ed3f4d6af4301
+7 verbose url raw /website-devlop
+8 verbose url resolving [ 'https://registry.npmjs.org/', './website-devlop' ]
+9 verbose url resolved https://registry.npmjs.org/website-devlop
+10 verbose request where is https://registry.npmjs.org/website-devlop
+11 info trying registry request attempt 1 at 15:08:59
+12 http GET https://registry.npmjs.org/website-devlop
+13 http 404 https://registry.npmjs.org/website-devlop
+14 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+14 verbose headers   'content-type': 'application/json',
+14 verbose headers   'cache-control': 'max-age=0',
+14 verbose headers   'content-length': '51',
+14 verbose headers   'accept-ranges': 'bytes',
+14 verbose headers   date: 'Tue, 16 Jun 2015 07:08:59 GMT',
+14 verbose headers   via: '1.1 varnish',
+14 verbose headers   age: '0',
+14 verbose headers   connection: 'close',
+14 verbose headers   'x-served-by': 'cache-lax1426-LAX',
+14 verbose headers   'x-cache': 'MISS',
+14 verbose headers   'x-cache-hits': '0',
+14 verbose headers   'x-timer': 'S1434438539.822108,VS0,VE48' }
+15 silly registry.get cb [ 404,
+15 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+15 silly registry.get     'content-type': 'application/json',
+15 silly registry.get     'cache-control': 'max-age=0',
+15 silly registry.get     'content-length': '51',
+15 silly registry.get     'accept-ranges': 'bytes',
+15 silly registry.get     date: 'Tue, 16 Jun 2015 07:08:59 GMT',
+15 silly registry.get     via: '1.1 varnish',
+15 silly registry.get     age: '0',
+15 silly registry.get     connection: 'close',
+15 silly registry.get     'x-served-by': 'cache-lax1426-LAX',
+15 silly registry.get     'x-cache': 'MISS',
+15 silly registry.get     'x-cache-hits': '0',
+15 silly registry.get     'x-timer': 'S1434438539.822108,VS0,VE48' } ]
+16 error owner ls Couldn't get owner data website-devlop
+17 error 404 404 Not Found: website-devlop
+17 error 404
+17 error 404 'website-devlop' is not in the npm registry.
+17 error 404 You should bug the author to publish it
+17 error 404
+17 error 404 Note that you can also install from a
+17 error 404 tarball, folder, or http url, or git url.
+18 error System Linux 3.13.0-48-generic
+19 error command "/usr/local/bin/node" "/usr/local/bin/npm" "owner" "ls" "website-devlop"
+20 error cwd /home/jovi/github/team/website-develop
+21 error node -v v0.13.0-pre
+22 error npm -v 1.4.28
+23 error code E404
+24 verbose exit [ 1, true ]
