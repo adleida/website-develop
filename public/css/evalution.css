@@ -1,0 +1,59 @@
+/* css decorate page on evalution.html */
+.exchange-header{
+    background: url(../images/evalution/rsz_evalution.jpg);
+    min-height: 500px;
+}
+
+/* use case go go */
+.use-cases {
+  padding: 0 0 2em;
+  margin-top: 74px;
+}
+
+.container:after, .container:before {
+  content: " ";
+  display: table;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.use-cases-space {
+  padding: 3em 0;
+  margin: 3em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.row:after, .row:before {
+  content: " ";
+  display: table;
+}
+
+
+.section-headline {
+  color: #2F3346;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: adelle-sans,sans-serif;
+  margin-top: 0;
+}
+
+.section-tagline {
+  color: #2f3346;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: adelle-sans,sans-serif;
+  padding: 0 0 .5em;
+}
+
+.section-description {
+  color: #555c71;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.row:after {
+  clear: both;
+}

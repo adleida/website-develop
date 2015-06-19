@@ -1,0 +1,133 @@
+/* css decorate page on exchange.html */
+.exchange-header{
+    background: url(../images/exchange/bidding.jpg);
+    min-height: 500px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.vendor{
+    height: 500px;
+}
+
+/* spikenode-steps begin */
+/* #48C9B0 #34495E */
+.spikenode-steps{
+    background: #48C9B0;
+    background: linear-gradient(to bottom,#48C9B0 0,#34495E 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48C9B0', endColorstr='#34495E', GradientType=0);
+    padding: 6em 0 3em;
+}
+
+.container:after, .container:before {
+  content: " ";
+  display: table;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.section-headline {
+  color: #2F3346;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: adelle-sans,sans-serif;
+  margin-top: 0;
+}
+
+.section-tagline {
+  color: #2f3346;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: adelle-sans,sans-serif;
+  padding: 0 0 .5em;
+}
+
+.step-list {
+  list-style: none;
+  counter-reset: stepList;
+  text-align: left;
+  color: #fff;
+  margin: 4em 10em;
+}
+
+.step-list li {
+  position: relative;
+  margin-bottom: 70px;
+  padding-left: 105px;
+}
+
+.step-list li:before {
+  content: counter(stepList);
+  counter-increment: stepList;
+  color: #7DCCE8;
+  font-size: 27px;
+  font-family: adelle-sans,sans-serif;
+  font-weight: 600;
+  border: 2px solid #7DCCE8;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  line-height: 75px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.step-list .step-headline {
+  font-size: 25px;
+}
+
+.step-list .step-description {
+  font-size: 18px;
+}
+
+.step-list li:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 60px;
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  background: url(../images/exchange/dots.svg) center center no-repeat;
+}
+
+.step-list li.step-job {
+  margin-bottom: 98px;
+}
+
+.step-list li.step-job:before {
+  color: #98ffea;
+  border-color: #98ffea;
+}
+
+.step-list li.step-run:before {
+  color: #75d6ff;
+  border-color: #75d6ff;
+}
+
+.step-list li.step-analyze:before {
+  color: #d7ff98;
+  border-color: #d7ff98;
+}
+
+/* certification */
+.standout {
+  background: #f7f8f8;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  margin-top: 74px;
+}
+
+.media-object {
+  max-width: 250px;
+  margin: 0 auto 1.5625em;
+}

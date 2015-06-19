@@ -1,6 +1,6 @@
 /* css decorate page on about.html */
-#about-header{
-    background: url(../images/people.jpg);
+.about-header{
+    background: url(../images/about/people.jpg);
     min-height: 500px;
 }
 

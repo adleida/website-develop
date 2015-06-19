@@ -26,6 +26,14 @@ app.get('/contact', function (req, res) {
     res.render('contact.html');
 });
 
+app.get('/exchange', function (req, res) {
+    res.render('exchange.html');
+});
+
+app.get('/evalution', function (req, res) {
+    res.render('evalution.html');
+});
+
 /* server entry here */
 var server = app.listen(3000, function () {
 
