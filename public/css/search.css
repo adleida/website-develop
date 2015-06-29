@@ -1,0 +1,100 @@
+/* css decorate page on search.html */
+.outdoor-header{
+    background: url(../images/search/rsz_search.png);
+    min-height: 500px;
+}
+
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fade-in-down {
+  -webkit-animation-name: fade-in-down;
+  animation-name: fade-in-down;
+}
+
+.steps {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.steps__bg {
+  min-height: 260px;
+  border-radius: 4px;
+  background: center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.steps__body {
+  position: absolute;
+  bottom: 20px;
+  padding-left: 20px;
+  padding-right: 35px;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.text-center {
+  margin-top: 74px;
+  text-align: center;
+}
+
+.row:after, .row:before {
+  display: table;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none!important;
+}
+
+@media (min-width: 768px)
+.project__block {
+  padding: 0 15px;
+  margin-bottom: 40px!important;
+}
+
+.grid-icon {
+  width: 42px;
+  height: 42px;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.text-primary {
+  color: #2a2a2a;
+}
+
+.text-tertiary {
+  color: #999;
+}
+
+.xs-margin-null {
+  margin: 0!important;
+}
+
+.sm-tags {
+  opacity: 1;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.info{
+  margin-top: 74px;
+}

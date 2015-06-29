@@ -34,6 +34,14 @@ app.get('/evalution', function (req, res) {
     res.render('evalution.html');
 });
 
+app.get('/search', function (req, res) {
+    res.render('search.html');
+});
+
+app.get('/outdoor', function (req, res) {
+    res.render('outdoor.html');
+});
+
 /* server entry here */
 var server = app.listen(3000, function () {
 

@@ -1,0 +1,24 @@
+/* css decorate page on outdoor.html */
+.outdoor-header{
+    background: url(../images/outdoor/rsz_bigdata.jpg);
+    min-height: 500px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.info{
+    color:#16A085;
+}
+
+.text-share{
+    margin-top: 55px;
+    min-height: 200px;
+    background-color:#ffffff;
+    border:1px solid #bebebe;
+}
+
+.fix-fix{
+    min-height: 200px;
+}
